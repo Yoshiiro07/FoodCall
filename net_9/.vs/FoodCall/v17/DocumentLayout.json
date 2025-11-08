@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Gui\\Desktop\\Projetos\\FoodCall\\backend_net\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{ACE7188C-ECB8-463F-A1FE-615840834F1D}|src\\Core\\FoodCall.Application\\FoodCall.Application.csproj|c:\\users\\gui\\desktop\\projetos\\foodcall\\backend_net\\src\\core\\foodcall.application\\foodcall.application.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{ACE7188C-ECB8-463F-A1FE-615840834F1D}|src\\Core\\FoodCall.Application\\FoodCall.Application.csproj|solutionrelative:src\\core\\foodcall.application\\foodcall.application.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ADBB2E5D-3D1B-441C-A648-AD4C4AC96DD3}|src\\Core\\FoodCall.Domain\\FoodCall.Domain.csproj|c:\\users\\gui\\desktop\\projetos\\foodcall\\backend_net\\src\\core\\foodcall.domain\\foodcall.domain.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{ADBB2E5D-3D1B-441C-A648-AD4C4AC96DD3}|src\\Core\\FoodCall.Domain\\FoodCall.Domain.csproj|solutionrelative:src\\core\\foodcall.domain\\foodcall.domain.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "FoodCall.Application",
+              "DocumentMoniker": "C:\\Users\\Gui\\Desktop\\Projetos\\FoodCall\\backend_net\\src\\Core\\FoodCall.Application\\FoodCall.Application.csproj",
+              "RelativeDocumentMoniker": "src\\Core\\FoodCall.Application\\FoodCall.Application.csproj",
+              "ToolTip": "C:\\Users\\Gui\\Desktop\\Projetos\\FoodCall\\backend_net\\src\\Core\\FoodCall.Application\\FoodCall.Application.csproj",
+              "RelativeToolTip": "src\\Core\\FoodCall.Application\\FoodCall.Application.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-11-07T13:43:01.188Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "FoodCall.Domain",
+              "DocumentMoniker": "C:\\Users\\Gui\\Desktop\\Projetos\\FoodCall\\backend_net\\src\\Core\\FoodCall.Domain\\FoodCall.Domain.csproj",
+              "RelativeDocumentMoniker": "src\\Core\\FoodCall.Domain\\FoodCall.Domain.csproj",
+              "ToolTip": "C:\\Users\\Gui\\Desktop\\Projetos\\FoodCall\\backend_net\\src\\Core\\FoodCall.Domain\\FoodCall.Domain.csproj",
+              "RelativeToolTip": "src\\Core\\FoodCall.Domain\\FoodCall.Domain.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-11-07T13:42:59.159Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
