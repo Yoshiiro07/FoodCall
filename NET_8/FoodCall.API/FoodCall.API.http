@@ -1,0 +1,6 @@
+@FoodCall.API_HostAddress = http://localhost:5240
+
+GET {{FoodCall.API_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "SPRIEbHC1kPVNKMErtiEMA7XOA1gCJmUZ/iFaZ93vwE=",
+  "Source": "FoodCall.API",
+  "BasePath": "_content/FoodCall.API",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}

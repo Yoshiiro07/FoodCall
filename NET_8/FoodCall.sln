@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FoodCall.Domain", "FoodCall.Domain\FoodCall.Domain.csproj", "{A26FEDA8-374E-4EC2-A023-89C988281D32}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FoodCall.Application", "FoodCall.Application\FoodCall.Application.csproj", "{21ED3827-4014-4496-AF5E-F2B47A0BE3CE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FoodCall.Infrastructure", "FoodCall.Infrastructure\FoodCall.Infrastructure.csproj", "{EAFD07D0-D9F0-4499-81CC-26E085A61D79}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FoodCall.API", "FoodCall.API\FoodCall.API.csproj", "{5DD2F0B3-6CA4-4A58-BE8F-5436C57CE5F8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A26FEDA8-374E-4EC2-A023-89C988281D32}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A26FEDA8-374E-4EC2-A023-89C988281D32}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A26FEDA8-374E-4EC2-A023-89C988281D32}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A26FEDA8-374E-4EC2-A023-89C988281D32}.Release|Any CPU.Build.0 = Release|Any CPU
+		{21ED3827-4014-4496-AF5E-F2B47A0BE3CE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{21ED3827-4014-4496-AF5E-F2B47A0BE3CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{21ED3827-4014-4496-AF5E-F2B47A0BE3CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{21ED3827-4014-4496-AF5E-F2B47A0BE3CE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EAFD07D0-D9F0-4499-81CC-26E085A61D79}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EAFD07D0-D9F0-4499-81CC-26E085A61D79}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EAFD07D0-D9F0-4499-81CC-26E085A61D79}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EAFD07D0-D9F0-4499-81CC-26E085A61D79}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5DD2F0B3-6CA4-4A58-BE8F-5436C57CE5F8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5DD2F0B3-6CA4-4A58-BE8F-5436C57CE5F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5DD2F0B3-6CA4-4A58-BE8F-5436C57CE5F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5DD2F0B3-6CA4-4A58-BE8F-5436C57CE5F8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
