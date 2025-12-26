@@ -1,0 +1,11 @@
+# Build outputs
+**/bin/
+**/obj/
+
+# VS/IDE
+.vs/
+*.user
+*.suo
+
+# NuGet
+**/packages/

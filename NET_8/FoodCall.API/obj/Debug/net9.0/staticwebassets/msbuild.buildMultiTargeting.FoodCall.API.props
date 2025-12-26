@@ -1,3 +1,0 @@
-﻿<Project>
-  <Import Project="../build/FoodCall.API.props" />
-</Project>
