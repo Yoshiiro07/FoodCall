@@ -13,8 +13,33 @@ public class Product
     {
         Id = Guid.NewGuid();
         RestaurantId = restaurantId;
-        Name = name;
-        Description = description;
+        if (string.IsNullOrWhiteSpace(name))
+            throw new ArgumentException("Product name is required.");
+
+        if (string.IsNullOrWhiteSpace(description))
+            throw new ArgumentException("Product description is required.");
+
+        if (price < 0)
+            throw new ArgumentException("Product price cannot be negative.");
+
+        Name = name.Trim();
+        Description = description.Trim();
+        Price = price;
+    }
+
+    public void Update(string name, string description, decimal price)
+    {
+        if (string.IsNullOrWhiteSpace(name))
+            throw new ArgumentException("Product name is required.");
+
+        if (string.IsNullOrWhiteSpace(description))
+            throw new ArgumentException("Product description is required.");
+
+        if (price < 0)
+            throw new ArgumentException("Product price cannot be negative.");
+
+        Name = name.Trim();
+        Description = description.Trim();
         Price = price;
     }
 }

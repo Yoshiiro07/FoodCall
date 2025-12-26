@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("FoodCall.API")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9f1a22ae90f15d52253b61f3b1375c90c2c2455c")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+071594b63638327fff0c46193f76391a6f9739aa")]
 [assembly: System.Reflection.AssemblyProductAttribute("FoodCall.API")]
 [assembly: System.Reflection.AssemblyTitleAttribute("FoodCall.API")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

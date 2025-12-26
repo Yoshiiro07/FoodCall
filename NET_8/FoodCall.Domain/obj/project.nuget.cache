@@ -1,8 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "2LAKizC9eUI=",
+  "dgSpecHash": "7V6CpzYw+F8=",
   "success": true,
-  "projectFilePath": "/home/gui/Projetos/FoodCall/NET_8/FoodCall.Domain/FoodCall.Domain.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "c:\\Users\\Gui\\Desktop\\Projetos\\FoodCall\\NET_8\\FoodCall.Domain\\FoodCall.Domain.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Gui\\.nuget\\packages\\microsoft.netcore.app.ref\\9.0.11\\microsoft.netcore.app.ref.9.0.11.nupkg.sha512",
+    "C:\\Users\\Gui\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\9.0.11\\microsoft.windowsdesktop.app.ref.9.0.11.nupkg.sha512",
+    "C:\\Users\\Gui\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\9.0.11\\microsoft.aspnetcore.app.ref.9.0.11.nupkg.sha512"
+  ],
   "logs": []
 }
