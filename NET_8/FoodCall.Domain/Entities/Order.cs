@@ -1,5 +1,6 @@
 using FoodCall.Domain.Enums;
 using FoodCall.Domain.Exceptions;
+using FoodCall.Domain.ValueObjects;
 
 namespace FoodCall.Domain.Entities;
 

@@ -1,4 +1,5 @@
 using FoodCall.Domain.Exceptions;
+using FoodCall.Domain.ValueObjects;
 
 namespace FoodCall.Domain.Entities;
 
@@ -75,5 +76,3 @@ public class User
             throw new InvalidEntityException("User", "Telefone deve ter entre 10 e 20 caracteres");
     }
 }
-
-public record Address(string Street, string Number, string Neighborhood, string City, string ZipCode);
