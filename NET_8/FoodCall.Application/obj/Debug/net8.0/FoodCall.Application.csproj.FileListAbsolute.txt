@@ -1,0 +1,16 @@
+/home/gui/Projetos/FoodCall/NET_8/FoodCall.Application/bin/Debug/net8.0/FoodCall.Application.deps.json
+/home/gui/Projetos/FoodCall/NET_8/FoodCall.Application/bin/Debug/net8.0/FoodCall.Application.dll
+/home/gui/Projetos/FoodCall/NET_8/FoodCall.Application/bin/Debug/net8.0/FoodCall.Application.pdb
+/home/gui/Projetos/FoodCall/NET_8/FoodCall.Application/bin/Debug/net8.0/FoodCall.Domain.dll
+/home/gui/Projetos/FoodCall/NET_8/FoodCall.Application/bin/Debug/net8.0/FoodCall.Domain.pdb
+/home/gui/Projetos/FoodCall/NET_8/FoodCall.Application/obj/Debug/net8.0/FoodCall.Application.csproj.AssemblyReference.cache
+/home/gui/Projetos/FoodCall/NET_8/FoodCall.Application/obj/Debug/net8.0/FoodCall.Application.GeneratedMSBuildEditorConfig.editorconfig
+/home/gui/Projetos/FoodCall/NET_8/FoodCall.Application/obj/Debug/net8.0/FoodCall.Application.AssemblyInfoInputs.cache
+/home/gui/Projetos/FoodCall/NET_8/FoodCall.Application/obj/Debug/net8.0/FoodCall.Application.AssemblyInfo.cs
+/home/gui/Projetos/FoodCall/NET_8/FoodCall.Application/obj/Debug/net8.0/FoodCall.Application.csproj.CoreCompileInputs.cache
+/home/gui/Projetos/FoodCall/NET_8/FoodCall.Application/obj/Debug/net8.0/FoodCall.Application.sourcelink.json
+/home/gui/Projetos/FoodCall/NET_8/FoodCall.Application/obj/Debug/net8.0/FoodCall.6A35AE40.Up2Date
+/home/gui/Projetos/FoodCall/NET_8/FoodCall.Application/obj/Debug/net8.0/FoodCall.Application.dll
+/home/gui/Projetos/FoodCall/NET_8/FoodCall.Application/obj/Debug/net8.0/refint/FoodCall.Application.dll
+/home/gui/Projetos/FoodCall/NET_8/FoodCall.Application/obj/Debug/net8.0/FoodCall.Application.pdb
+/home/gui/Projetos/FoodCall/NET_8/FoodCall.Application/obj/Debug/net8.0/ref/FoodCall.Application.dll
