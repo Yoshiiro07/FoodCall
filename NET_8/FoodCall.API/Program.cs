@@ -1,8 +1,13 @@
+using FoodCall.Infrastructure;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
+
+// Adicionar Infrastructure (DbContext e Repositórios)
+builder.Services.AddInfrastructure(builder.Configuration);
 
 var app = builder.Build();
 

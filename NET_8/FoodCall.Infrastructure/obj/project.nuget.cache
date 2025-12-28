@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "KWZXLWXdzHw=",
+  "dgSpecHash": "uhfEou+i0XA=",
   "success": true,
   "projectFilePath": "/home/gui/Projetos/FoodCall/NET_8/FoodCall.Infrastructure/FoodCall.Infrastructure.csproj",
   "expectedPackageFiles": [
@@ -54,9 +54,7 @@
     "/home/gui/.nuget/packages/system.reflection.metadata/6.0.1/system.reflection.metadata.6.0.1.nupkg.sha512",
     "/home/gui/.nuget/packages/system.runtime.compilerservices.unsafe/6.0.0/system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512",
     "/home/gui/.nuget/packages/system.text.encoding.codepages/6.0.0/system.text.encoding.codepages.6.0.0.nupkg.sha512",
-    "/home/gui/.nuget/packages/system.threading.channels/6.0.0/system.threading.channels.6.0.0.nupkg.sha512",
-    "/home/gui/.nuget/packages/microsoft.netcore.app.ref/8.0.22/microsoft.netcore.app.ref.8.0.22.nupkg.sha512",
-    "/home/gui/.nuget/packages/microsoft.aspnetcore.app.ref/8.0.22/microsoft.aspnetcore.app.ref.8.0.22.nupkg.sha512"
+    "/home/gui/.nuget/packages/system.threading.channels/6.0.0/system.threading.channels.6.0.0.nupkg.sha512"
   ],
   "logs": []
 }
