@@ -1,0 +1,76 @@
+<div class="top-bar">
+  <div class="container">
+    <div class="logo">
+      <h1>{{ title() }}</h1>
+    </div>
+    <nav>
+      <div class="menu-items">
+        <a class="menu-link" routerLink="/">Home</a>
+        <a class="menu-link" routerLink="/restaurantes">Restaurantes</a>
+        <a class="menu-link" href="#">Mercado</a>
+        <a class="menu-link" href="#">Promoções</a>
+      </div>
+      @if (currentUser$ | async; as user) {
+        <div class="user-info">
+          <span class="user-name">{{ user.name }}</span>
+          <button class="logout-btn" (click)="onLogoutClick()">Logout</button>
+        </div>
+      } @else {
+        <button class="login-btn" (click)="onLoginClick()">Login</button>
+      }
+    </nav>
+  </div>
+</div>
+
+<main>
+  <router-outlet></router-outlet>
+</main>
+
+<!-- Login Popup -->
+@if (showLoginModal()) {
+  <div class="modal-overlay" (click)="closeLoginModal()">
+    <div class="modal-content" (click)="$event.stopPropagation()">
+      <button class="close-btn" (click)="closeLoginModal()">&times;</button>
+      <h2>Login</h2>
+      <form (submit)="onSubmitLogin($event)">
+        @if (errorMessage()) {
+          <div class="error-message">
+            {{ errorMessage() }}
+          </div>
+        }
+        <div class="form-group">
+          <label for="username">E-mail</label>
+          <input 
+            type="email" 
+            id="username" 
+            [(ngModel)]="username" 
+            name="username"
+            placeholder="Digite seu e-mail"
+            [disabled]="isLoading()"
+            required
+          />
+        </div>
+        <div class="form-group">
+          <label for="password">Senha</label>
+          <input 
+            type="password" 
+            id="password" 
+            [(ngModel)]="password" 
+            name="password"
+            placeholder="Digite sua senha"
+            [disabled]="isLoading()"
+            required
+          />
+        </div>
+        <button type="submit" class="access-btn" [disabled]="isLoading()">
+          @if (isLoading()) {
+            <span class="spinner"></span>
+            Aguarde...
+          } @else {
+            Acessar
+          }
+        </button>
+      </form>
+    </div>
+  </div>
+}

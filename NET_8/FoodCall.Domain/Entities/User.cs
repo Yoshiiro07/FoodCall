@@ -9,18 +9,21 @@ public class User
     public string Name { get; private set; }
     public string Email { get; private set; }
     public string Phone { get; private set; }
+    public string PasswordHash { get; private set; }
     public List<Address> Addresses { get; private set; } = new();
 
-    public User(string name, string email, string phone)
+    public User(string name, string email, string phone, string passwordHash)
     {
         ValidateName(name);
         ValidateEmail(email);
         ValidatePhone(phone);
+        ValidatePasswordHash(passwordHash);
 
         Id = Guid.NewGuid();
         Name = name;
         Email = email;
         Phone = phone;
+        PasswordHash = passwordHash;
     }
 
     public void AddAddress(Address address)
@@ -41,6 +44,12 @@ public class User
     {
         ValidatePhone(phone);
         Phone = phone;
+    }
+
+    public void UpdatePassword(string passwordHash)
+    {
+        ValidatePasswordHash(passwordHash);
+        PasswordHash = passwordHash;
     }
 
     private void ValidateName(string name)
@@ -74,5 +83,11 @@ public class User
 
         if (phone.Length < 10 || phone.Length > 20)
             throw new InvalidEntityException("User", "Telefone deve ter entre 10 e 20 caracteres");
+    }
+
+    private void ValidatePasswordHash(string passwordHash)
+    {
+        if (string.IsNullOrWhiteSpace(passwordHash))
+            throw new InvalidEntityException("User", "Hash da senha não pode ser vazio");
     }
 }

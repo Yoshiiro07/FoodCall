@@ -1,0 +1,42 @@
+<div class="restaurants-container">
+  <h2>Restaurantes</h2>
+  <p class="subtitle">Escolha seu restaurante favorito</p>
+
+  <div class="search-bar">
+    <input 
+      type="text" 
+      placeholder="Pesquisar restaurantes ou categorias..."
+      [ngModel]="searchTerm()"
+      (ngModelChange)="onSearchChange($event)"
+      class="search-input"
+    />
+    <span class="search-icon">🔍</span>
+  </div>
+
+  @if (filteredRestaurants().length === 0) {
+    <div class="no-results">
+      <p>Nenhum restaurante encontrado para "{{ searchTerm() }}"</p>
+    </div>
+  }
+
+  <div class="restaurants-grid">
+    @for (restaurant of filteredRestaurants(); track restaurant.id) {
+      <div class="restaurant-card">
+        <div class="card-image">
+          <img [src]="restaurant.image" [alt]="restaurant.name">
+        </div>
+        <div class="card-content">
+          <h3>{{ restaurant.name }}</h3>
+          <p class="category">{{ restaurant.category }}</p>
+          <div class="rating">
+            <span class="star">⭐</span>
+            <span>{{ restaurant.rating }}</span>
+          </div>
+          <button class="menu-btn" (click)="viewMenu(restaurant.id)">
+            Ver Cardápio
+          </button>
+        </div>
+      </div>
+    }
+  </div>
+</div>

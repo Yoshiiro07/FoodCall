@@ -22,7 +22,10 @@ public class CreateUserCommandHandler : IRequestHandler<CreateUserCommand, UserD
         if (existingUser)
             throw new DuplicateEntityException($"User with email {request.User.Email} already exists");
 
-        var user = new User(request.User.Name, request.User.Email, request.User.Phone);
+        // Hash da senha
+        var passwordHash = BCrypt.Net.BCrypt.HashPassword(request.User.Password);
+
+        var user = new User(request.User.Name, request.User.Email, request.User.Phone, passwordHash);
 
         foreach (var addressDto in request.User.Addresses)
         {

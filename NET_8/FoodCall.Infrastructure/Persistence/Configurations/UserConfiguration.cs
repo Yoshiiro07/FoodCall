@@ -25,9 +25,19 @@ public class UserConfiguration : IEntityTypeConfiguration<User>
             .IsRequired()
             .HasMaxLength(20);
 
+        builder.Property(e => e.PasswordHash)
+            .IsRequired()
+            .HasMaxLength(500);
+
         // Configuração do Value Object Address como Owned Entity
         builder.OwnsMany(e => e.Addresses, address =>
         {
+            address.ToTable("Address");
+            
+            address.WithOwner().HasForeignKey("UserId");
+            address.Property<int>("Id");
+            address.HasKey("UserId", "Id");
+            
             address.Property(a => a.Street)
                 .IsRequired()
                 .HasMaxLength(200);

@@ -12,6 +12,7 @@ public record CreateUserDto(
     string Name,
     string Email,
     string Phone,
+    string Password,
     List<CreateAddressDto> Addresses
 );
 
