@@ -1,0 +1,30 @@
+version: '3.8'
+
+services:
+  # API .NET
+  foodcall-api:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: foodcall-api
+    ports:
+      - "5000:8080"
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+      - ConnectionStrings__DefaultConnection=Data Source=/app/data/foodcall.db
+      - JwtSettings__SecretKey=FoodCall-Super-Secret-Key-2026-Min-32-Characters
+      - JwtSettings__Issuer=FoodCallAPI
+      - JwtSettings__Audience=FoodCallClient
+      - JwtSettings__ExpiresInMinutes=60
+    volumes:
+      - sqlite-data:/app/data
+    networks:
+      - foodcall-network
+    restart: unless-stopped
+
+networks:
+  foodcall-network:
+    driver: bridge
+
+volumes:
+  sqlite-data:
