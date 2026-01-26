@@ -5,6 +5,7 @@ public interface IUnitOfWork : IDisposable
     IUserRepository Users { get; }
     IRestaurantRepository Restaurants { get; }
     IProductRepository Products { get; }
+    ICategoryRepository Categories { get; }
     IOrderRepository Orders { get; }
     ICourierRepository Couriers { get; }
     IPaymentRepository Payments { get; }

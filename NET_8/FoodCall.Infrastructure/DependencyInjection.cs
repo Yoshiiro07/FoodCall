@@ -27,6 +27,7 @@ public static class DependencyInjection
         services.AddScoped<ICourierRepository, CourierRepository>();
         services.AddScoped<IPaymentRepository, PaymentRepository>();
         services.AddScoped<IReviewRepository, ReviewRepository>();
+        services.AddScoped<ICategoryRepository, CategoryRepository>();
 
         // Registrar Unit of Work
         services.AddScoped<IUnitOfWork, UnitOfWork>();
