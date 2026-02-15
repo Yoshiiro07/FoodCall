@@ -48,17 +48,17 @@ public class CreateUserCommandHandlerTests
         var command = new CreateUserCommand(createUserDto);
 
         _userRepositoryMock
-            .Setup(x => x.ExistsByEmailAsync(createUserDto.Email))
+            .Setup(x => x.ExistsByEmailAsync(createUserDto.Email, It.IsAny<CancellationToken>()))
             .ReturnsAsync(false);
 
         User capturedUser = null!;
         _userRepositoryMock
-            .Setup(x => x.AddAsync(It.IsAny<User>()))
+            .Setup(x => x.AddAsync(It.IsAny<User>(), It.IsAny<CancellationToken>()))
             .Callback<User, CancellationToken>((user, _) => capturedUser = user)
             .Returns(Task.CompletedTask);
 
         _unitOfWorkMock
-            .Setup(x => x.SaveChangesAsync())
+            .Setup(x => x.SaveChangesAsync(It.IsAny<CancellationToken>()))
             .ReturnsAsync(1);
 
         // Act
@@ -76,9 +76,9 @@ public class CreateUserCommandHandlerTests
         capturedUser.Email.Should().Be(createUserDto.Email);
         capturedUser.Addresses.Should().HaveCount(1);
 
-        _userRepositoryMock.Verify(x => x.ExistsByEmailAsync(createUserDto.Email), Times.Once);
-        _userRepositoryMock.Verify(x => x.AddAsync(It.IsAny<User>()), Times.Once);
-        _unitOfWorkMock.Verify(x => x.SaveChangesAsync(), Times.Once);
+        _userRepositoryMock.Verify(x => x.ExistsByEmailAsync(createUserDto.Email, It.IsAny<CancellationToken>()), Times.Once);
+        _userRepositoryMock.Verify(x => x.AddAsync(It.IsAny<User>(), It.IsAny<CancellationToken>()), Times.Once);
+        _unitOfWorkMock.Verify(x => x.SaveChangesAsync(It.IsAny<CancellationToken>()), Times.Once);
     }
 
     [Fact]
@@ -96,7 +96,7 @@ public class CreateUserCommandHandlerTests
         var command = new CreateUserCommand(createUserDto);
 
         _userRepositoryMock
-            .Setup(x => x.ExistsByEmailAsync(createUserDto.Email))
+            .Setup(x => x.ExistsByEmailAsync(createUserDto.Email, It.IsAny<CancellationToken>()))
             .ReturnsAsync(true);
 
         // Act
@@ -106,9 +106,9 @@ public class CreateUserCommandHandlerTests
         await act.Should().ThrowAsync<DuplicateEntityException>()
             .WithMessage($"*{createUserDto.Email}*");
 
-        _userRepositoryMock.Verify(x => x.ExistsByEmailAsync(createUserDto.Email), Times.Once);
-        _userRepositoryMock.Verify(x => x.AddAsync(It.IsAny<User>()), Times.Never);
-        _unitOfWorkMock.Verify(x => x.SaveChangesAsync(), Times.Never);
+        _userRepositoryMock.Verify(x => x.ExistsByEmailAsync(createUserDto.Email, It.IsAny<CancellationToken>()), Times.Once);
+        _userRepositoryMock.Verify(x => x.AddAsync(It.IsAny<User>(), It.IsAny<CancellationToken>()), Times.Never);
+        _unitOfWorkMock.Verify(x => x.SaveChangesAsync(It.IsAny<CancellationToken>()), Times.Never);
     }
 
     [Fact]
@@ -127,17 +127,17 @@ public class CreateUserCommandHandlerTests
         var command = new CreateUserCommand(createUserDto);
 
         _userRepositoryMock
-            .Setup(x => x.ExistsByEmailAsync(createUserDto.Email))
+            .Setup(x => x.ExistsByEmailAsync(createUserDto.Email, It.IsAny<CancellationToken>()))
             .ReturnsAsync(false);
 
         User capturedUser = null!;
         _userRepositoryMock
-            .Setup(x => x.AddAsync(It.IsAny<User>()))
+            .Setup(x => x.AddAsync(It.IsAny<User>(), It.IsAny<CancellationToken>()))
             .Callback<User, CancellationToken>((user, _) => capturedUser = user)
             .Returns(Task.CompletedTask);
 
         _unitOfWorkMock
-            .Setup(x => x.SaveChangesAsync())
+            .Setup(x => x.SaveChangesAsync(It.IsAny<CancellationToken>()))
             .ReturnsAsync(1);
 
         // Act

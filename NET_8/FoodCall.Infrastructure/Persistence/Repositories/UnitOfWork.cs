@@ -14,6 +14,7 @@ public class UnitOfWork : IUnitOfWork
         Users = new UserRepository(_context);
         Restaurants = new RestaurantRepository(_context);
         Products = new ProductRepository(_context);
+        Categories = new CategoryRepository(_context);
         Orders = new OrderRepository(_context);
         Couriers = new CourierRepository(_context);
         Payments = new PaymentRepository(_context);
@@ -23,6 +24,7 @@ public class UnitOfWork : IUnitOfWork
     public IUserRepository Users { get; }
     public IRestaurantRepository Restaurants { get; }
     public IProductRepository Products { get; }
+    public ICategoryRepository Categories { get; }
     public IOrderRepository Orders { get; }
     public ICourierRepository Couriers { get; }
     public IPaymentRepository Payments { get; }

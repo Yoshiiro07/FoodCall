@@ -1,1 +1,11 @@
-{"Version":1,"Hash":"xKc/oO4Mlmo/+qt2YnrHQrKFO7RCDflE5+c6xxxeBto=","Source":"FoodCall.API","BasePath":"/","Mode":"Root","ManifestType":"Build","ReferencedProjectsConfiguration":[],"DiscoveryPatterns":[],"Assets":[],"Endpoints":[]}
+{
+  "Version": 1,
+  "Hash": "4pySnkmOo5A+zoAS4SJL/Dd68+zYx8ur4wwj9vNDnw8=",
+  "Source": "FoodCall.API",
+  "BasePath": "_content/FoodCall.API",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

@@ -33,7 +33,7 @@ public class GetUserByIdQueryHandlerTests
         var query = new GetUserByIdQuery(userId);
 
         _userRepositoryMock
-            .Setup(x => x.GetByIdAsync(userId))
+            .Setup(x => x.GetByIdAsync(userId, It.IsAny<CancellationToken>()))
             .ReturnsAsync(user);
 
         // Act
@@ -45,7 +45,7 @@ public class GetUserByIdQueryHandlerTests
         result.Email.Should().Be(user.Email);
         result.Phone.Should().Be(user.Phone);
 
-        _userRepositoryMock.Verify(x => x.GetByIdAsync(userId), Times.Once);
+        _userRepositoryMock.Verify(x => x.GetByIdAsync(userId, It.IsAny<CancellationToken>()), Times.Once);
     }
 
     [Fact]
@@ -56,7 +56,7 @@ public class GetUserByIdQueryHandlerTests
         var query = new GetUserByIdQuery(userId);
 
         _userRepositoryMock
-            .Setup(x => x.GetByIdAsync(userId))
+            .Setup(x => x.GetByIdAsync(userId, It.IsAny<CancellationToken>()))
             .ReturnsAsync((User)null!);
 
         // Act
@@ -66,6 +66,6 @@ public class GetUserByIdQueryHandlerTests
         await act.Should().ThrowAsync<EntityNotFoundException>()
             .WithMessage($"*{userId}*");
 
-        _userRepositoryMock.Verify(x => x.GetByIdAsync(userId), Times.Once);
+        _userRepositoryMock.Verify(x => x.GetByIdAsync(userId, It.IsAny<CancellationToken>()), Times.Once);
     }
 }
