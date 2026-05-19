@@ -2655,11 +2655,11 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "D:\\Projetos\\NET\\FoodCall\\src\\Application\\Application.csproj": {
-              "projectPath": "D:\\Projetos\\NET\\FoodCall\\src\\Application\\Application.csproj"
+            "D:\\Projetos\\NET\\Foodcall\\src\\Application\\Application.csproj": {
+              "projectPath": "D:\\Projetos\\NET\\Foodcall\\src\\Application\\Application.csproj"
             },
-            "D:\\Projetos\\NET\\FoodCall\\src\\Domain\\Domain.csproj": {
-              "projectPath": "D:\\Projetos\\NET\\FoodCall\\src\\Domain\\Domain.csproj"
+            "D:\\Projetos\\NET\\Foodcall\\src\\Domain\\Domain.csproj": {
+              "projectPath": "D:\\Projetos\\NET\\Foodcall\\src\\Domain\\Domain.csproj"
             }
           }
         }

@@ -1,4 +1,5 @@
 // src/WebApi/Controllers/ProductsController.cs
+using Application.Products.Commands.CreateProduct;
 using Application.Products.Queries.GetAllProducts;
 using Application.Products.Queries.GetProductById;
 using Domain.Entities;
@@ -28,5 +29,14 @@ public class ProductsController : ApiControllerBase
         }
 
         return Ok(product);
+    }
+
+    [HttpPost]
+    public async Task<ActionResult<Guid>> Create([FromBody] CreateProductCommand command, CancellationToken cancellationToken)
+    {
+        var productId = await Mediator.Send(command, cancellationToken);
+        
+        // Retorna o status 201 Created indicando onde o recurso pode ser acessado
+        return CreatedAtAction(nameof(GetById), new { id = productId }, productId);
     }
 }

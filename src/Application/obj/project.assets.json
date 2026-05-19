@@ -141,11 +141,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Projetos\\NET\\FoodCall\\src\\Application\\Application.csproj",
+      "projectUniqueName": "D:\\Projetos\\NET\\Foodcall\\src\\Application\\Application.csproj",
       "projectName": "Application",
-      "projectPath": "D:\\Projetos\\NET\\FoodCall\\src\\Application\\Application.csproj",
+      "projectPath": "D:\\Projetos\\NET\\Foodcall\\src\\Application\\Application.csproj",
       "packagesPath": "C:\\Users\\Gui\\.nuget\\packages\\",
-      "outputPath": "D:\\Projetos\\NET\\FoodCall\\src\\Application\\obj\\",
+      "outputPath": "D:\\Projetos\\NET\\Foodcall\\src\\Application\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Gui\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -160,8 +160,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "D:\\Projetos\\NET\\FoodCall\\src\\Domain\\Domain.csproj": {
-              "projectPath": "D:\\Projetos\\NET\\FoodCall\\src\\Domain\\Domain.csproj"
+            "D:\\Projetos\\NET\\Foodcall\\src\\Domain\\Domain.csproj": {
+              "projectPath": "D:\\Projetos\\NET\\Foodcall\\src\\Domain\\Domain.csproj"
             }
           }
         }

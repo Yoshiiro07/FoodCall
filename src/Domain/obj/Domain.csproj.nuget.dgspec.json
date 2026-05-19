@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Projetos\\NET\\FoodCall\\src\\Domain\\Domain.csproj": {}
+    "D:\\Projetos\\NET\\Foodcall\\src\\Domain\\Domain.csproj": {}
   },
   "projects": {
-    "D:\\Projetos\\NET\\FoodCall\\src\\Domain\\Domain.csproj": {
+    "D:\\Projetos\\NET\\Foodcall\\src\\Domain\\Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Projetos\\NET\\FoodCall\\src\\Domain\\Domain.csproj",
+        "projectUniqueName": "D:\\Projetos\\NET\\Foodcall\\src\\Domain\\Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "D:\\Projetos\\NET\\FoodCall\\src\\Domain\\Domain.csproj",
+        "projectPath": "D:\\Projetos\\NET\\Foodcall\\src\\Domain\\Domain.csproj",
         "packagesPath": "C:\\Users\\Gui\\.nuget\\packages\\",
-        "outputPath": "D:\\Projetos\\NET\\FoodCall\\src\\Domain\\obj\\",
+        "outputPath": "D:\\Projetos\\NET\\Foodcall\\src\\Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Gui\\AppData\\Roaming\\NuGet\\NuGet.Config"
