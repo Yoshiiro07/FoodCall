@@ -2,6 +2,8 @@
 using Application.Products.Commands.CreateProduct;
 using Application.Products.Queries.GetAllProducts;
 using Application.Products.Queries.GetProductById;
+using Application.Products.Commands.UpdateProduct;
+using Application.Products.Commands.DeleteProduct;
 using Domain.Entities;
 using Microsoft.AspNetCore.Mvc;
 
@@ -32,11 +34,46 @@ public class ProductsController : ApiControllerBase
     }
 
     [HttpPost]
+    // POST: api/products/{id}
     public async Task<ActionResult<Guid>> Create([FromBody] CreateProductCommand command, CancellationToken cancellationToken)
     {
         var productId = await Mediator.Send(command, cancellationToken);
         
         // Retorna o status 201 Created indicando onde o recurso pode ser acessado
         return CreatedAtAction(nameof(GetById), new { id = productId }, productId);
+    }
+
+    [HttpPut("{id:guid}")]
+    public async Task<ActionResult> Update(Guid id, [FromBody] UpdateProductCommand command, CancellationToken cancellationToken)
+    {
+        // Garante que o ID da URL é o mesmo ID enviado no corpo da requisição
+        if (id != command.Id)
+        {
+            return BadRequest(new { Message = "O ID da URL não corresponde ao ID do corpo da requisição." });
+        }
+
+        try
+        {
+            await Mediator.Send(command, cancellationToken);
+            return NoContent(); // Status 204 No Content (padrão ouro para Updates bem-sucedidos)
+        }
+        catch (Exception ex)
+        {
+            return NotFound(new { Message = ex.Message });
+        }
+    }
+
+    [HttpDelete("{id:guid}")]
+    public async Task<ActionResult> Delete(Guid id, CancellationToken cancellationToken)
+    {
+        try
+        {
+            await Mediator.Send(new DeleteProductCommand(id), cancellationToken);
+            return NoContent(); // Status 204 No Content (padrão ouro para Deletes bem-sucedidos)
+        }
+        catch (Exception ex)
+        {
+            return NotFound(new { Message = ex.Message });
+        }
     }
 }

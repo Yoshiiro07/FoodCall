@@ -30,4 +30,16 @@ public class ProductRepository : IProductRepository
         await _context.Products.AddAsync(product, cancellationToken);
         await _context.SaveChangesAsync(cancellationToken); // Salva as alterações no SQLite
     }
+
+    public async Task UpdateAsync(Product product, CancellationToken cancellationToken)
+    {
+        _context.Products.Update(product);
+        await _context.SaveChangesAsync(cancellationToken);
+    }
+
+    public Task DeleteAsync(Product product, CancellationToken cancellationToken)
+    {
+        _context.Products.Remove(product);
+        return _context.SaveChangesAsync(cancellationToken);
+    }
 }

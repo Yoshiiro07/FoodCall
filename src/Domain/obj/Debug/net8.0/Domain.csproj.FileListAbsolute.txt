@@ -9,3 +9,4 @@ D:\Projetos\NET\FoodCall\src\Domain\obj\Debug\net8.0\Domain.dll
 D:\Projetos\NET\FoodCall\src\Domain\obj\Debug\net8.0\refint\Domain.dll
 D:\Projetos\NET\FoodCall\src\Domain\obj\Debug\net8.0\Domain.pdb
 D:\Projetos\NET\Foodcall\src\Domain\obj\Debug\net8.0\ref\Domain.dll
+D:\Projetos\NET\Foodcall\src\Domain\obj\Debug\net8.0\Domain.sourcelink.json

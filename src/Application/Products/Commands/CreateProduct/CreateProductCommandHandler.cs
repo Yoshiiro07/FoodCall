@@ -16,7 +16,6 @@ public class CreateProductCommandHandler : IRequestHandler<CreateProductCommand,
 
     public async Task<Guid> Handle(CreateProductCommand request, CancellationToken cancellationToken)
     {
-        // Instancia uma nova entidade de domínio gerando um novo Guid
         var product = new Product
         {
             Id = Guid.NewGuid(),
@@ -26,6 +25,6 @@ public class CreateProductCommandHandler : IRequestHandler<CreateProductCommand,
 
         await _productRepository.AddAsync(product, cancellationToken);
 
-        return product.Id; // Retorna o ID do produto criado
+        return product.Id;
     }
 }

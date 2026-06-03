@@ -1,7 +1,7 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Projetos\\NET\\Foodcall\\src\\WebApi\\WebApi.csproj": {}
+    "D:\\Projetos\\NET\\Foodcall\\src\\webapi\\WebApi.csproj": {}
   },
   "projects": {
     "D:\\Projetos\\NET\\Foodcall\\src\\Application\\Application.csproj": {
@@ -211,14 +211,14 @@
         }
       }
     },
-    "D:\\Projetos\\NET\\Foodcall\\src\\WebApi\\WebApi.csproj": {
+    "D:\\Projetos\\NET\\Foodcall\\src\\webapi\\WebApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Projetos\\NET\\Foodcall\\src\\WebApi\\WebApi.csproj",
+        "projectUniqueName": "D:\\Projetos\\NET\\Foodcall\\src\\webapi\\WebApi.csproj",
         "projectName": "WebApi",
-        "projectPath": "D:\\Projetos\\NET\\Foodcall\\src\\WebApi\\WebApi.csproj",
+        "projectPath": "D:\\Projetos\\NET\\Foodcall\\src\\webapi\\WebApi.csproj",
         "packagesPath": "C:\\Users\\Gui\\.nuget\\packages\\",
-        "outputPath": "D:\\Projetos\\NET\\Foodcall\\src\\WebApi\\obj\\",
+        "outputPath": "D:\\Projetos\\NET\\Foodcall\\src\\webapi\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Gui\\AppData\\Roaming\\NuGet\\NuGet.Config"

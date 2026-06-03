@@ -8,5 +8,9 @@ namespace Domain.Repositories
         Task<IEnumerable<Product>> GetAllAsync(CancellationToken cancellationToken);
 
         Task AddAsync(Product product, CancellationToken cancellationToken);
+
+        Task UpdateAsync(Product product, CancellationToken cancellationToken);
+
+        Task DeleteAsync(Product product, CancellationToken cancellationToken);
     }
 }
