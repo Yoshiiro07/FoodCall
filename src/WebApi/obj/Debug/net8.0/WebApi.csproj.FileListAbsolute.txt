@@ -135,3 +135,7 @@ D:\Projetos\NET\FoodCall\src\WebApi\obj\Debug\net8.0\WebApi.pdb
 D:\Projetos\NET\Foodcall\src\WebApi\obj\Debug\net8.0\WebApi.genruntimeconfig.cache
 D:\Projetos\NET\Foodcall\src\WebApi\obj\Debug\net8.0\ref\WebApi.dll
 D:\Projetos\NET\Foodcall\src\webapi\obj\Debug\net8.0\WebApi.sourcelink.json
+D:\Projetos\NET\Foodcall\src\WebApi\bin\Debug\net8.0\MassTransit.dll
+D:\Projetos\NET\Foodcall\src\WebApi\bin\Debug\net8.0\MassTransit.Abstractions.dll
+D:\Projetos\NET\Foodcall\src\WebApi\bin\Debug\net8.0\MassTransit.RabbitMqTransport.dll
+D:\Projetos\NET\Foodcall\src\WebApi\bin\Debug\net8.0\RabbitMQ.Client.dll

@@ -1,0 +1,84 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "run-webapi",
+			"type": "shell",
+			"command": "dotnet",
+			"args": [
+				"run",
+				"--project",
+				"src/WebApi/WebApi.csproj"
+			],
+			"isBackground": false
+		},
+		{
+			"label": "run-webapi-clean",
+			"type": "shell",
+			"command": "dotnet",
+			"args": [
+				"run",
+				"--project",
+				"src/WebApi/WebApi.csproj"
+			],
+			"isBackground": false
+		},
+		{
+			"label": "list-webapi-procs",
+			"type": "shell",
+			"command": "powershell",
+			"args": [
+				"-NoProfile",
+				"-Command",
+				"Get-CimInstance Win32_Process | Where-Object { $_.Name -match 'dotnet|WebApi' -or $_.CommandLine -match 'WebApi' } | Select-Object ProcessId, Name, CommandLine | Format-Table -AutoSize"
+			],
+			"isBackground": false
+		},
+		{
+			"label": "list-dotnet-procs",
+			"type": "shell",
+			"command": "Get-Process dotnet -ErrorAction SilentlyContinue | Select-Object Id, ProcessName, Path | Format-Table -AutoSize",
+			"isBackground": false
+		},
+		{
+			"label": "kill-dotnet-procs",
+			"type": "shell",
+			"command": "Get-Process dotnet -ErrorAction SilentlyContinue | Stop-Process -Force",
+			"isBackground": false
+		},
+		{
+			"label": "run-webapi-after-kill",
+			"type": "shell",
+			"command": "dotnet",
+			"args": [
+				"run",
+				"--project",
+				"src/WebApi/WebApi.csproj"
+			],
+			"isBackground": false
+		},
+		{
+			"label": "find-port-5128",
+			"type": "shell",
+			"command": "netstat -ano | findstr :5128",
+			"isBackground": false
+		},
+		{
+			"label": "kill-port-5128-pid",
+			"type": "shell",
+			"command": "taskkill /PID 25412 /F",
+			"isBackground": false
+		},
+		{
+			"label": "run-webapi-final-check",
+			"type": "shell",
+			"command": "dotnet",
+			"args": [
+				"run",
+				"--project",
+				"src/WebApi/WebApi.csproj"
+			],
+			"isBackground": false
+		}
+	]
+}
