@@ -13,5 +13,7 @@ public class AppDbContext : DbContext
 
     public DbSet<Product> Products { get; set; }
 
+    public DbSet<Driver> Drivers { get; set; }
+
     public DbSet<Restaurant> Restaurants { get; set; }
 }
