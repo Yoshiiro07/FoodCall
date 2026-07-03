@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "GS74XQppM9g=",
+  "dgSpecHash": "HaVXQbaPfg8=",
   "success": true,
-  "projectFilePath": "D:\\Projetos\\NET\\Foodcall\\src\\Application\\Application.csproj",
+  "projectFilePath": "D:\\Projetos\\NET\\FoodCall\\src\\Application\\Application.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Gui\\.nuget\\packages\\masstransit\\8.2.3\\masstransit.8.2.3.nupkg.sha512",
     "C:\\Users\\Gui\\.nuget\\packages\\masstransit.abstractions\\8.2.3\\masstransit.abstractions.8.2.3.nupkg.sha512",

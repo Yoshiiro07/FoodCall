@@ -122,11 +122,6 @@ D:\Projetos\NET\FoodCall\src\WebApi\obj\Debug\net8.0\WebApi.MvcApplicationPartsA
 D:\Projetos\NET\FoodCall\src\WebApi\obj\Debug\net8.0\WebApi.MvcApplicationPartsAssemblyInfo.cache
 D:\Projetos\NET\FoodCall\src\WebApi\obj\Debug\net8.0\staticwebassets.build.json
 D:\Projetos\NET\FoodCall\src\WebApi\obj\Debug\net8.0\staticwebassets.development.json
-D:\Projetos\NET\FoodCall\src\WebApi\obj\Debug\net8.0\staticwebassets\msbuild.WebApi.Microsoft.AspNetCore.StaticWebAssets.props
-D:\Projetos\NET\FoodCall\src\WebApi\obj\Debug\net8.0\staticwebassets\msbuild.build.WebApi.props
-D:\Projetos\NET\FoodCall\src\WebApi\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.WebApi.props
-D:\Projetos\NET\FoodCall\src\WebApi\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.WebApi.props
-D:\Projetos\NET\FoodCall\src\WebApi\obj\Debug\net8.0\staticwebassets.pack.json
 D:\Projetos\NET\FoodCall\src\WebApi\obj\Debug\net8.0\scopedcss\bundle\WebApi.styles.css
 D:\Projetos\NET\Foodcall\src\WebApi\obj\Debug\net8.0\WebApi.csproj.Up2Date
 D:\Projetos\NET\FoodCall\src\WebApi\obj\Debug\net8.0\WebApi.dll
@@ -139,3 +134,11 @@ D:\Projetos\NET\Foodcall\src\WebApi\bin\Debug\net8.0\MassTransit.dll
 D:\Projetos\NET\Foodcall\src\WebApi\bin\Debug\net8.0\MassTransit.Abstractions.dll
 D:\Projetos\NET\Foodcall\src\WebApi\bin\Debug\net8.0\MassTransit.RabbitMqTransport.dll
 D:\Projetos\NET\Foodcall\src\WebApi\bin\Debug\net8.0\RabbitMQ.Client.dll
+D:\Projetos\NET\FoodCall\src\WebApi\bin\Debug\net8.0\WebApi.staticwebassets.endpoints.json
+D:\Projetos\NET\FoodCall\src\WebApi\obj\Debug\net8.0\rpswa.dswa.cache.json
+D:\Projetos\NET\FoodCall\src\WebApi\obj\Debug\net8.0\rjimswa.dswa.cache.json
+D:\Projetos\NET\FoodCall\src\WebApi\obj\Debug\net8.0\rjsmrazor.dswa.cache.json
+D:\Projetos\NET\FoodCall\src\WebApi\obj\Debug\net8.0\rjsmcshtml.dswa.cache.json
+D:\Projetos\NET\FoodCall\src\WebApi\obj\Debug\net8.0\staticwebassets.build.json.cache
+D:\Projetos\NET\FoodCall\src\WebApi\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+D:\Projetos\NET\FoodCall\src\WebApi\obj\Debug\net8.0\swae.build.ex.cache

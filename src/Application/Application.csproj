@@ -9,6 +9,13 @@
     <PackageReference Include="MediatR" Version="12.2.0" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Restaurants\Commands\DeleteRestaurant\" />
+    <Folder Include="Restaurants\Commands\UpdateRestaurant\" />
+    <Folder Include="Restaurants\Queries\GetAllRestaurants\" />
+    <Folder Include="Restaurants\Queries\GetRestaurantByName\" />
+  </ItemGroup>
+
   <PropertyGroup>
     <TargetFramework>net8.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>

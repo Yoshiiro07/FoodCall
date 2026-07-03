@@ -37,10 +37,21 @@ public class ProductsController : ApiControllerBase
     // POST: api/products/{id}
     public async Task<ActionResult<Guid>> Create([FromBody] CreateProductCommand command, CancellationToken cancellationToken)
     {
-        var productId = await Mediator.Send(command, cancellationToken);
-        
-        // Retorna o status 201 Created indicando onde o recurso pode ser acessado
-        return CreatedAtAction(nameof(GetById), new { id = productId }, productId);
+        try
+        {
+            var productId = await Mediator.Send(command, cancellationToken);
+
+            // Retorna o status 201 Created indicando onde o recurso pode ser acessado
+            return CreatedAtAction(nameof(GetById), new { id = productId }, productId);
+        }
+        catch (ArgumentException ex)
+        {
+            return BadRequest(new { Message = ex.Message });
+        }
+        catch (KeyNotFoundException ex)
+        {
+            return NotFound(new { Message = ex.Message });
+        }
     }
 
     [HttpPut("{id:guid}")]

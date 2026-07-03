@@ -1,33 +1,41 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Projetos\\NET\\Foodcall\\src\\WebApi\\WebApi.csproj": {}
+    "D:\\Projetos\\NET\\FoodCall\\src\\WebApi\\WebApi.csproj": {}
   },
   "projects": {
-    "D:\\Projetos\\NET\\Foodcall\\src\\Application\\Application.csproj": {
+    "D:\\Projetos\\NET\\FoodCall\\src\\Application\\Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Projetos\\NET\\Foodcall\\src\\Application\\Application.csproj",
+        "projectUniqueName": "D:\\Projetos\\NET\\FoodCall\\src\\Application\\Application.csproj",
         "projectName": "Application",
-        "projectPath": "D:\\Projetos\\NET\\Foodcall\\src\\Application\\Application.csproj",
+        "projectPath": "D:\\Projetos\\NET\\FoodCall\\src\\Application\\Application.csproj",
         "packagesPath": "C:\\Users\\Gui\\.nuget\\packages\\",
-        "outputPath": "D:\\Projetos\\NET\\Foodcall\\src\\Application\\obj\\",
+        "outputPath": "D:\\Projetos\\NET\\FoodCall\\src\\Application\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Gui\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\Gui\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
+            "framework": "net8.0",
             "targetAlias": "net8.0",
             "projectReferences": {
-              "D:\\Projetos\\NET\\Foodcall\\src\\Domain\\Domain.csproj": {
-                "projectPath": "D:\\Projetos\\NET\\Foodcall\\src\\Domain\\Domain.csproj"
+              "D:\\Projetos\\NET\\FoodCall\\src\\Domain\\Domain.csproj": {
+                "projectPath": "D:\\Projetos\\NET\\FoodCall\\src\\Domain\\Domain.csproj"
               }
             }
           }
@@ -41,10 +49,12 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        }
+        },
+        "SdkAnalysisLevel": "10.0.300"
       },
       "frameworks": {
         "net8.0": {
+          "framework": "net8.0",
           "targetAlias": "net8.0",
           "dependencies": {
             "MassTransit": {
@@ -72,30 +82,38 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.421/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.301/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\Projetos\\NET\\Foodcall\\src\\Domain\\Domain.csproj": {
+    "D:\\Projetos\\NET\\FoodCall\\src\\Domain\\Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Projetos\\NET\\Foodcall\\src\\Domain\\Domain.csproj",
+        "projectUniqueName": "D:\\Projetos\\NET\\FoodCall\\src\\Domain\\Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "D:\\Projetos\\NET\\Foodcall\\src\\Domain\\Domain.csproj",
+        "projectPath": "D:\\Projetos\\NET\\FoodCall\\src\\Domain\\Domain.csproj",
         "packagesPath": "C:\\Users\\Gui\\.nuget\\packages\\",
-        "outputPath": "D:\\Projetos\\NET\\Foodcall\\src\\Domain\\obj\\",
+        "outputPath": "D:\\Projetos\\NET\\FoodCall\\src\\Domain\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Gui\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\Gui\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
+            "framework": "net8.0",
             "targetAlias": "net8.0",
             "projectReferences": {}
           }
@@ -109,10 +127,12 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        }
+        },
+        "SdkAnalysisLevel": "10.0.300"
       },
       "frameworks": {
         "net8.0": {
+          "framework": "net8.0",
           "targetAlias": "net8.0",
           "imports": [
             "net461",
@@ -130,37 +150,45 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.421/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.301/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\Projetos\\NET\\Foodcall\\src\\Infrastructure\\Infrastructure.csproj": {
+    "D:\\Projetos\\NET\\FoodCall\\src\\Infrastructure\\Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Projetos\\NET\\Foodcall\\src\\Infrastructure\\Infrastructure.csproj",
+        "projectUniqueName": "D:\\Projetos\\NET\\FoodCall\\src\\Infrastructure\\Infrastructure.csproj",
         "projectName": "Infrastructure",
-        "projectPath": "D:\\Projetos\\NET\\Foodcall\\src\\Infrastructure\\Infrastructure.csproj",
+        "projectPath": "D:\\Projetos\\NET\\FoodCall\\src\\Infrastructure\\Infrastructure.csproj",
         "packagesPath": "C:\\Users\\Gui\\.nuget\\packages\\",
-        "outputPath": "D:\\Projetos\\NET\\Foodcall\\src\\Infrastructure\\obj\\",
+        "outputPath": "D:\\Projetos\\NET\\FoodCall\\src\\Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Gui\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\Gui\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
+            "framework": "net8.0",
             "targetAlias": "net8.0",
             "projectReferences": {
-              "D:\\Projetos\\NET\\Foodcall\\src\\Application\\Application.csproj": {
-                "projectPath": "D:\\Projetos\\NET\\Foodcall\\src\\Application\\Application.csproj"
+              "D:\\Projetos\\NET\\FoodCall\\src\\Application\\Application.csproj": {
+                "projectPath": "D:\\Projetos\\NET\\FoodCall\\src\\Application\\Application.csproj"
               },
-              "D:\\Projetos\\NET\\Foodcall\\src\\Domain\\Domain.csproj": {
-                "projectPath": "D:\\Projetos\\NET\\Foodcall\\src\\Domain\\Domain.csproj"
+              "D:\\Projetos\\NET\\FoodCall\\src\\Domain\\Domain.csproj": {
+                "projectPath": "D:\\Projetos\\NET\\FoodCall\\src\\Domain\\Domain.csproj"
               }
             }
           }
@@ -174,10 +202,12 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        }
+        },
+        "SdkAnalysisLevel": "10.0.300"
       },
       "frameworks": {
         "net8.0": {
+          "framework": "net8.0",
           "targetAlias": "net8.0",
           "dependencies": {
             "MassTransit.RabbitMQ": {
@@ -215,37 +245,45 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.421/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.301/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\Projetos\\NET\\Foodcall\\src\\WebApi\\WebApi.csproj": {
+    "D:\\Projetos\\NET\\FoodCall\\src\\WebApi\\WebApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Projetos\\NET\\Foodcall\\src\\WebApi\\WebApi.csproj",
+        "projectUniqueName": "D:\\Projetos\\NET\\FoodCall\\src\\WebApi\\WebApi.csproj",
         "projectName": "WebApi",
-        "projectPath": "D:\\Projetos\\NET\\Foodcall\\src\\WebApi\\WebApi.csproj",
+        "projectPath": "D:\\Projetos\\NET\\FoodCall\\src\\WebApi\\WebApi.csproj",
         "packagesPath": "C:\\Users\\Gui\\.nuget\\packages\\",
-        "outputPath": "D:\\Projetos\\NET\\Foodcall\\src\\WebApi\\obj\\",
+        "outputPath": "D:\\Projetos\\NET\\FoodCall\\src\\WebApi\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Gui\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\Gui\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
+            "framework": "net8.0",
             "targetAlias": "net8.0",
             "projectReferences": {
-              "D:\\Projetos\\NET\\Foodcall\\src\\Application\\Application.csproj": {
-                "projectPath": "D:\\Projetos\\NET\\Foodcall\\src\\Application\\Application.csproj"
+              "D:\\Projetos\\NET\\FoodCall\\src\\Application\\Application.csproj": {
+                "projectPath": "D:\\Projetos\\NET\\FoodCall\\src\\Application\\Application.csproj"
               },
-              "D:\\Projetos\\NET\\Foodcall\\src\\Infrastructure\\Infrastructure.csproj": {
-                "projectPath": "D:\\Projetos\\NET\\Foodcall\\src\\Infrastructure\\Infrastructure.csproj"
+              "D:\\Projetos\\NET\\FoodCall\\src\\Infrastructure\\Infrastructure.csproj": {
+                "projectPath": "D:\\Projetos\\NET\\FoodCall\\src\\Infrastructure\\Infrastructure.csproj"
               }
             }
           }
@@ -259,10 +297,12 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        }
+        },
+        "SdkAnalysisLevel": "10.0.300"
       },
       "frameworks": {
         "net8.0": {
+          "framework": "net8.0",
           "targetAlias": "net8.0",
           "dependencies": {
             "MassTransit.RabbitMQ": {
@@ -321,7 +361,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.421/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.301/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

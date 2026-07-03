@@ -17,8 +17,6 @@ public class RestaurantRepository : IRestaurantRepository
 
    public async Task<Restaurant?> GetByIdAsync(Guid id, CancellationToken cancellationToken)
     {
-        // Usamos o Include para que, sempre que puxarmos um restaurante,
-        // ele já traga a lista de produtos dele automaticamente!
         return await _context.Set<Restaurant>()
             .Include(r => r.Products)
             .FirstOrDefaultAsync(r => r.Id == id, cancellationToken);

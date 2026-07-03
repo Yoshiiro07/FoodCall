@@ -20,19 +20,35 @@ public static class DependecyInjection
         services.AddScoped<IProductRepository, ProductRepository>();
         services.AddScoped<IRestaurantRepository, RestaurantRepository>();
 
-        // 3. Configuração do MassTransit (RabbitMQ)
+        // 3. Configuração do MassTransit (RabbitMQ ou InMemory)
+        var rabbitEnabled = bool.TryParse(configuration["RabbitMQ:Enabled"], out var enabled) && enabled;
+        var rabbitHost = configuration["RabbitMQ:Host"] ?? "localhost";
+        var rabbitVirtualHost = configuration["RabbitMQ:VirtualHost"] ?? "/";
+        var rabbitUsername = configuration["RabbitMQ:Username"] ?? "guest";
+        var rabbitPassword = configuration["RabbitMQ:Password"] ?? "guest";
+
         services.AddMassTransit(x =>
         {
-           x.UsingRabbitMq((context, cfg) =>
+            if (rabbitEnabled)
             {
-                cfg.Host("localhost", "/", h =>
+                x.UsingRabbitMq((context, cfg) =>
                 {
-                    h.Username("guest");
-                    h.Password("guest");
-                });
+                    cfg.Host(rabbitHost, rabbitVirtualHost, h =>
+                    {
+                        h.Username(rabbitUsername);
+                        h.Password(rabbitPassword);
+                    });
 
-                cfg.ConfigureEndpoints(context);
-            });
+                    cfg.ConfigureEndpoints(context);
+                });
+            }
+            else
+            {
+                x.UsingInMemory((context, cfg) =>
+                {
+                    cfg.ConfigureEndpoints(context);
+                });
+            }
         });
 
         return services;

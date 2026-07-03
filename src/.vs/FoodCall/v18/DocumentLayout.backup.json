@@ -1,0 +1,58 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Projetos\\NET\\FoodCall\\src\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{408A7582-ED33-4536-8513-B6B8EA8E8693}|WebApi\\WebApi.csproj|d:\\projetos\\net\\foodcall\\src\\webapi\\controllers\\restaurantcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{408A7582-ED33-4536-8513-B6B8EA8E8693}|WebApi\\WebApi.csproj|solutionrelative:webapi\\controllers\\restaurantcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{408A7582-ED33-4536-8513-B6B8EA8E8693}|WebApi\\WebApi.csproj|d:\\projetos\\net\\foodcall\\src\\webapi\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{408A7582-ED33-4536-8513-B6B8EA8E8693}|WebApi\\WebApi.csproj|solutionrelative:webapi\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{c6f34f0d-7ae5-4f3a-be61-fe0c21ae9eb8}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ProductsController.cs",
+              "DocumentMoniker": "D:\\Projetos\\NET\\FoodCall\\src\\WebApi\\Controllers\\ProductsController.cs",
+              "RelativeDocumentMoniker": "WebApi\\Controllers\\ProductsController.cs",
+              "ToolTip": "D:\\Projetos\\NET\\FoodCall\\src\\WebApi\\Controllers\\ProductsController.cs",
+              "RelativeToolTip": "WebApi\\Controllers\\ProductsController.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-03T19:57:10.866Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "RestaurantController.cs",
+              "DocumentMoniker": "D:\\Projetos\\NET\\FoodCall\\src\\WebApi\\Controllers\\RestaurantController.cs",
+              "RelativeDocumentMoniker": "WebApi\\Controllers\\RestaurantController.cs",
+              "ToolTip": "D:\\Projetos\\NET\\FoodCall\\src\\WebApi\\Controllers\\RestaurantController.cs",
+              "RelativeToolTip": "WebApi\\Controllers\\RestaurantController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-03T19:57:00.021Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

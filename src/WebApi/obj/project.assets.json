@@ -1,5 +1,5 @@
 {
-  "version": 3,
+  "version": 4,
   "targets": {
     "net8.0": {
       "Humanizer.Core/2.14.1": {
@@ -3585,35 +3585,44 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Gui\\.nuget\\packages\\": {}
+    "C:\\Users\\Gui\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Projetos\\NET\\Foodcall\\src\\WebApi\\WebApi.csproj",
+      "projectUniqueName": "D:\\Projetos\\NET\\FoodCall\\src\\WebApi\\WebApi.csproj",
       "projectName": "WebApi",
-      "projectPath": "D:\\Projetos\\NET\\Foodcall\\src\\WebApi\\WebApi.csproj",
+      "projectPath": "D:\\Projetos\\NET\\FoodCall\\src\\WebApi\\WebApi.csproj",
       "packagesPath": "C:\\Users\\Gui\\.nuget\\packages\\",
-      "outputPath": "D:\\Projetos\\NET\\Foodcall\\src\\WebApi\\obj\\",
+      "outputPath": "D:\\Projetos\\NET\\FoodCall\\src\\WebApi\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "C:\\Users\\Gui\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\Gui\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net8.0": {
+          "framework": "net8.0",
           "targetAlias": "net8.0",
           "projectReferences": {
-            "D:\\Projetos\\NET\\Foodcall\\src\\Application\\Application.csproj": {
-              "projectPath": "D:\\Projetos\\NET\\Foodcall\\src\\Application\\Application.csproj"
+            "D:\\Projetos\\NET\\FoodCall\\src\\Application\\Application.csproj": {
+              "projectPath": "D:\\Projetos\\NET\\FoodCall\\src\\Application\\Application.csproj"
             },
-            "D:\\Projetos\\NET\\Foodcall\\src\\Infrastructure\\Infrastructure.csproj": {
-              "projectPath": "D:\\Projetos\\NET\\Foodcall\\src\\Infrastructure\\Infrastructure.csproj"
+            "D:\\Projetos\\NET\\FoodCall\\src\\Infrastructure\\Infrastructure.csproj": {
+              "projectPath": "D:\\Projetos\\NET\\FoodCall\\src\\Infrastructure\\Infrastructure.csproj"
             }
           }
         }
@@ -3627,10 +3636,12 @@
         "enableAudit": "true",
         "auditLevel": "low",
         "auditMode": "direct"
-      }
+      },
+      "SdkAnalysisLevel": "10.0.300"
     },
     "frameworks": {
       "net8.0": {
+        "framework": "net8.0",
         "targetAlias": "net8.0",
         "dependencies": {
           "MassTransit.RabbitMQ": {
@@ -3689,7 +3700,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.421/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.301/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
