@@ -1,8 +1,6 @@
-﻿using Application.Products.Commands.CreateProduct;
-using Application.Products.Queries.GetAllProducts;
-using Application.Products.Queries.GetProductById;
-using Application.Products.Commands.UpdateProduct;
-using Application.Products.Commands.DeleteProduct;
+﻿using Application.Restaurants.Commands.CreateRestaurant;
+using Application.Restaurants.Commands.DeleteRestaurant;
+
 using Domain.Entities;
 using Microsoft.AspNetCore.Mvc;
 
@@ -10,18 +8,36 @@ namespace WebApi.Controllers
 {
     public class RestaurantsController : ApiControllerBase
     {
-
-
-        public RestaurantsController()
+        [HttpPost]
+        public async Task<ActionResult<Guid>> DeleteRestaurant([FromBody] DeleteRestaurantCommand command, CancellationToken cancellationToken)
         {
-
+            try
+            {
+                await Mediator.Send(command, cancellationToken);
+                return NoContent();
+            }
+            catch (ArgumentException ex)
+            {
+                return BadRequest(new { Message = ex.Message });
+            }
         }
-
-        [HttpGet]
-        public async Task<ActionResult<IEnumerable<Restaurant>>> GetAll(CancellationToken cancellationToken)
+       
+        [HttpPost]
+        // POST: api/restaurants/{id}
+        public async Task<ActionResult<Guid>> Create([FromBody]CreateRestaurantCommand command, CancellationToken cancellationToken)
         {
-            var restaurants = await Mediator.Send(new GetAllRestaurantsQuery(), cancellationToken);
-            return Ok(restaurants);
+            try{
+                var restaurantId = await Mediator.Send(command, cancellationToken);
+                return Ok();
+            }
+            catch (ArgumentException ex)
+            {
+                return BadRequest(new { Message = ex.Message });
+            }
+            catch (KeyNotFoundException ex)
+            {
+                return NotFound(new { Message = ex.Message });
+            }
         }
     }
 }

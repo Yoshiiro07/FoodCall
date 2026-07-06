@@ -10,7 +10,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Restaurants\Commands\DeleteRestaurant\" />
     <Folder Include="Restaurants\Commands\UpdateRestaurant\" />
     <Folder Include="Restaurants\Queries\GetAllRestaurants\" />
     <Folder Include="Restaurants\Queries\GetRestaurantByName\" />

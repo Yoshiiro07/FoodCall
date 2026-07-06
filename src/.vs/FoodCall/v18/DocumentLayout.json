@@ -3,16 +3,8 @@
   "WorkspaceRootPath": "D:\\Projetos\\NET\\FoodCall\\src\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{FCB6F422-252D-4C6F-B6B2-E99E92D18778}|Application\\Application.csproj|d:\\projetos\\net\\foodcall\\src\\application\\restaurants\\commands\\createrestaurant\\createrestaurantcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FCB6F422-252D-4C6F-B6B2-E99E92D18778}|Application\\Application.csproj|solutionrelative:application\\restaurants\\commands\\createrestaurant\\createrestaurantcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FCB6F422-252D-4C6F-B6B2-E99E92D18778}|Application\\Application.csproj|d:\\projetos\\net\\foodcall\\src\\application\\restaurants\\commands\\createrestaurant\\createrestaurantcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FCB6F422-252D-4C6F-B6B2-E99E92D18778}|Application\\Application.csproj|solutionrelative:application\\restaurants\\commands\\createrestaurant\\createrestaurantcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{06A6B51F-2954-4DDB-BDE9-814C48F39034}|Domain\\Domain.csproj|d:\\projetos\\net\\foodcall\\src\\domain\\entities\\restaurant.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{06A6B51F-2954-4DDB-BDE9-814C48F39034}|Domain\\Domain.csproj|solutionrelative:domain\\entities\\restaurant.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{408A7582-ED33-4536-8513-B6B8EA8E8693}|WebApi\\WebApi.csproj|d:\\projetos\\net\\foodcall\\src\\webapi\\controllers\\restaurantcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{408A7582-ED33-4536-8513-B6B8EA8E8693}|WebApi\\WebApi.csproj|solutionrelative:webapi\\controllers\\restaurantcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -27,40 +19,14 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "CreateRestaurantCommandHandler.cs",
-              "DocumentMoniker": "D:\\Projetos\\NET\\FoodCall\\src\\Application\\Restaurants\\Commands\\CreateRestaurant\\CreateRestaurantCommandHandler.cs",
-              "RelativeDocumentMoniker": "Application\\Restaurants\\Commands\\CreateRestaurant\\CreateRestaurantCommandHandler.cs",
-              "ToolTip": "D:\\Projetos\\NET\\FoodCall\\src\\Application\\Restaurants\\Commands\\CreateRestaurant\\CreateRestaurantCommandHandler.cs",
-              "RelativeToolTip": "Application\\Restaurants\\Commands\\CreateRestaurant\\CreateRestaurantCommandHandler.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAaAAAAAAAAAA==",
+              "Title": "RestaurantController.cs",
+              "DocumentMoniker": "D:\\Projetos\\NET\\FoodCall\\src\\WebApi\\Controllers\\RestaurantController.cs",
+              "RelativeDocumentMoniker": "WebApi\\Controllers\\RestaurantController.cs",
+              "ToolTip": "D:\\Projetos\\NET\\FoodCall\\src\\WebApi\\Controllers\\RestaurantController.cs",
+              "RelativeToolTip": "WebApi\\Controllers\\RestaurantController.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAwCoAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-03T20:24:27.825Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "CreateRestaurantCommand.cs",
-              "DocumentMoniker": "D:\\Projetos\\NET\\FoodCall\\src\\Application\\Restaurants\\Commands\\CreateRestaurant\\CreateRestaurantCommand.cs",
-              "RelativeDocumentMoniker": "Application\\Restaurants\\Commands\\CreateRestaurant\\CreateRestaurantCommand.cs",
-              "ToolTip": "D:\\Projetos\\NET\\FoodCall\\src\\Application\\Restaurants\\Commands\\CreateRestaurant\\CreateRestaurantCommand.cs",
-              "RelativeToolTip": "Application\\Restaurants\\Commands\\CreateRestaurant\\CreateRestaurantCommand.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-03T20:24:26.525Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Restaurant.cs",
-              "DocumentMoniker": "D:\\Projetos\\NET\\FoodCall\\src\\Domain\\Entities\\Restaurant.cs",
-              "RelativeDocumentMoniker": "Domain\\Entities\\Restaurant.cs",
-              "ToolTip": "D:\\Projetos\\NET\\FoodCall\\src\\Domain\\Entities\\Restaurant.cs",
-              "RelativeToolTip": "Domain\\Entities\\Restaurant.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAWAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-03T20:17:55.203Z",
+              "WhenOpened": "2026-07-06T02:55:02.856Z",
               "EditorCaption": ""
             }
           ]
