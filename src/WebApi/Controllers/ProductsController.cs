@@ -40,8 +40,6 @@ public class ProductsController : ApiControllerBase
         try
         {
             var productId = await Mediator.Send(command, cancellationToken);
-
-            // Retorna o status 201 Created indicando onde o recurso pode ser acessado
             return CreatedAtAction(nameof(GetById), new { id = productId }, productId);
         }
         catch (ArgumentException ex)
@@ -57,16 +55,15 @@ public class ProductsController : ApiControllerBase
     [HttpPut("{id:guid}")]
     public async Task<ActionResult> Update(Guid id, [FromBody] UpdateProductCommand command, CancellationToken cancellationToken)
     {
-        // Garante que o ID da URL é o mesmo ID enviado no corpo da requisição
         if (id != command.Id)
         {
-            return BadRequest(new { Message = "O ID da URL não corresponde ao ID do corpo da requisição." });
+            return BadRequest(new { Message = "O ID da URL não é o mesmo do ID do corpo da requisição." });
         }
 
         try
         {
             await Mediator.Send(command, cancellationToken);
-            return NoContent(); // Status 204 No Content (padrão ouro para Updates bem-sucedidos)
+            return NoContent(); 
         }
         catch (Exception ex)
         {
@@ -80,7 +77,7 @@ public class ProductsController : ApiControllerBase
         try
         {
             await Mediator.Send(new DeleteProductCommand(id), cancellationToken);
-            return NoContent(); // Status 204 No Content (padrão ouro para Deletes bem-sucedidos)
+            return NoContent();
         }
         catch (Exception ex)
         {

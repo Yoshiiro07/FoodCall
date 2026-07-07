@@ -1,14 +1,27 @@
 ﻿using Application.Restaurants.Commands.CreateRestaurant;
 using Application.Restaurants.Commands.DeleteRestaurant;
-
-using Domain.Entities;
+using Application.Restaurants.Commands.UpdateRestaurant;
 using Microsoft.AspNetCore.Mvc;
 
 namespace WebApi.Controllers
 {
     public class RestaurantsController : ApiControllerBase
     {
-        [HttpPost]
+       [HttpPut("{id:guid}")]
+        public async Task<ActionResult<Guid>> UpdateRestaurant([FromBody] UpdateRestaurantCommand command, CancellationToken cancellationToken)
+        {
+            try
+            {
+                await Mediator.Send(command, cancellationToken);
+                return NoContent();
+            }
+            catch (ArgumentException ex)
+            {
+                return BadRequest(new { Message = ex.Message });
+            }
+        }
+
+        [HttpDelete("{id:guid}")]
         public async Task<ActionResult<Guid>> DeleteRestaurant([FromBody] DeleteRestaurantCommand command, CancellationToken cancellationToken)
         {
             try
@@ -23,7 +36,7 @@ namespace WebApi.Controllers
         }
        
         [HttpPost]
-        // POST: api/restaurants/{id}
+        // POST: api/restaurants/{id} minha referencia
         public async Task<ActionResult<Guid>> Create([FromBody]CreateRestaurantCommand command, CancellationToken cancellationToken)
         {
             try{

@@ -19,6 +19,7 @@ public static class DependecyInjection
         // 2. Registro dos Repositórios
         services.AddScoped<IProductRepository, ProductRepository>();
         services.AddScoped<IRestaurantRepository, RestaurantRepository>();
+        services.AddScoped<IUserRepository, UserRepository>();
 
         // 3. Configuração do MassTransit (RabbitMQ ou InMemory)
         var rabbitEnabled = bool.TryParse(configuration["RabbitMQ:Enabled"], out var enabled) && enabled;

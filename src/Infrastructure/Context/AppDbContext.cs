@@ -16,4 +16,6 @@ public class AppDbContext : DbContext
     public DbSet<Driver> Drivers { get; set; }
 
     public DbSet<Restaurant> Restaurants { get; set; }
+
+    public DbSet<User> Users { get; set; }
 }

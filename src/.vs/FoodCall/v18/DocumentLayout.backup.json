@@ -3,16 +3,20 @@
   "WorkspaceRootPath": "D:\\Projetos\\NET\\FoodCall\\src\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{FCB6F422-252D-4C6F-B6B2-E99E92D18778}|Application\\Application.csproj|d:\\projetos\\net\\foodcall\\src\\application\\restaurants\\commands\\createrestaurant\\createrestaurantcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FCB6F422-252D-4C6F-B6B2-E99E92D18778}|Application\\Application.csproj|solutionrelative:application\\restaurants\\commands\\createrestaurant\\createrestaurantcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{953F8678-1EFA-4A32-9573-CE3B659183DF}|Infrastructure\\Infrastructure.csproj|d:\\projetos\\net\\foodcall\\src\\infrastructure\\context\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{953F8678-1EFA-4A32-9573-CE3B659183DF}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\context\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FCB6F422-252D-4C6F-B6B2-E99E92D18778}|Application\\Application.csproj|d:\\projetos\\net\\foodcall\\src\\application\\restaurants\\commands\\createrestaurant\\createrestaurantcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FCB6F422-252D-4C6F-B6B2-E99E92D18778}|Application\\Application.csproj|solutionrelative:application\\restaurants\\commands\\createrestaurant\\createrestaurantcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{408A7582-ED33-4536-8513-B6B8EA8E8693}|WebApi\\WebApi.csproj|d:\\projetos\\net\\foodcall\\src\\webapi\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{408A7582-ED33-4536-8513-B6B8EA8E8693}|WebApi\\WebApi.csproj|solutionrelative:webapi\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{06A6B51F-2954-4DDB-BDE9-814C48F39034}|Domain\\Domain.csproj|d:\\projetos\\net\\foodcall\\src\\domain\\entities\\restaurant.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{06A6B51F-2954-4DDB-BDE9-814C48F39034}|Domain\\Domain.csproj|solutionrelative:domain\\entities\\restaurant.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{06A6B51F-2954-4DDB-BDE9-814C48F39034}|Domain\\Domain.csproj|d:\\projetos\\net\\foodcall\\src\\domain\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{06A6B51F-2954-4DDB-BDE9-814C48F39034}|Domain\\Domain.csproj|solutionrelative:domain\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FCB6F422-252D-4C6F-B6B2-E99E92D18778}|Application\\Application.csproj|d:\\projetos\\net\\foodcall\\src\\application\\users\\commands\\registeruser\\registerusercommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FCB6F422-252D-4C6F-B6B2-E99E92D18778}|Application\\Application.csproj|solutionrelative:application\\users\\commands\\registeruser\\registerusercommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -27,39 +31,54 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "CreateRestaurantCommandHandler.cs",
-              "DocumentMoniker": "D:\\Projetos\\NET\\FoodCall\\src\\Application\\Restaurants\\Commands\\CreateRestaurant\\CreateRestaurantCommandHandler.cs",
-              "RelativeDocumentMoniker": "Application\\Restaurants\\Commands\\CreateRestaurant\\CreateRestaurantCommandHandler.cs",
-              "ToolTip": "D:\\Projetos\\NET\\FoodCall\\src\\Application\\Restaurants\\Commands\\CreateRestaurant\\CreateRestaurantCommandHandler.cs",
-              "RelativeToolTip": "Application\\Restaurants\\Commands\\CreateRestaurant\\CreateRestaurantCommandHandler.cs",
-              "ViewState": "AgIAABIAAAAAAAAAAAAYwBcAAAAyAAAAAAAAAA==",
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "D:\\Projetos\\NET\\FoodCall\\src\\Infrastructure\\Context\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Context\\AppDbContext.cs",
+              "ToolTip": "D:\\Projetos\\NET\\FoodCall\\src\\Infrastructure\\Context\\AppDbContext.cs",
+              "RelativeToolTip": "Infrastructure\\Context\\AppDbContext.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABMAAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-03T20:24:27.825Z",
+              "WhenOpened": "2026-07-06T16:02:05.199Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "CreateRestaurantCommand.cs",
-              "DocumentMoniker": "D:\\Projetos\\NET\\FoodCall\\src\\Application\\Restaurants\\Commands\\CreateRestaurant\\CreateRestaurantCommand.cs",
-              "RelativeDocumentMoniker": "Application\\Restaurants\\Commands\\CreateRestaurant\\CreateRestaurantCommand.cs",
-              "ToolTip": "D:\\Projetos\\NET\\FoodCall\\src\\Application\\Restaurants\\Commands\\CreateRestaurant\\CreateRestaurantCommand.cs",
-              "RelativeToolTip": "Application\\Restaurants\\Commands\\CreateRestaurant\\CreateRestaurantCommand.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Title": "UserController.cs",
+              "DocumentMoniker": "D:\\Projetos\\NET\\FoodCall\\src\\WebApi\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "WebApi\\Controllers\\UserController.cs",
+              "ToolTip": "D:\\Projetos\\NET\\FoodCall\\src\\WebApi\\Controllers\\UserController.cs",
+              "RelativeToolTip": "WebApi\\Controllers\\UserController.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAcwBsAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-03T20:24:26.525Z"
+              "WhenOpened": "2026-07-06T15:13:51.101Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Restaurant.cs",
-              "DocumentMoniker": "D:\\Projetos\\NET\\FoodCall\\src\\Domain\\Entities\\Restaurant.cs",
-              "RelativeDocumentMoniker": "Domain\\Entities\\Restaurant.cs",
-              "ToolTip": "D:\\Projetos\\NET\\FoodCall\\src\\Domain\\Entities\\Restaurant.cs",
-              "RelativeToolTip": "Domain\\Entities\\Restaurant.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAWAAAAAAAAAA==",
+              "Title": "User.cs",
+              "DocumentMoniker": "D:\\Projetos\\NET\\FoodCall\\src\\Domain\\Entities\\User.cs",
+              "RelativeDocumentMoniker": "Domain\\Entities\\User.cs",
+              "ToolTip": "D:\\Projetos\\NET\\FoodCall\\src\\Domain\\Entities\\User.cs",
+              "RelativeToolTip": "Domain\\Entities\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-03T20:17:55.203Z"
+              "WhenOpened": "2026-07-06T14:55:35.001Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "RegisterUserCommandHandler.cs",
+              "DocumentMoniker": "D:\\Projetos\\NET\\FoodCall\\src\\Application\\Users\\Commands\\RegisterUser\\RegisterUserCommandHandler.cs",
+              "RelativeDocumentMoniker": "Application\\Users\\Commands\\RegisterUser\\RegisterUserCommandHandler.cs",
+              "ToolTip": "D:\\Projetos\\NET\\FoodCall\\src\\Application\\Users\\Commands\\RegisterUser\\RegisterUserCommandHandler.cs",
+              "RelativeToolTip": "Application\\Users\\Commands\\RegisterUser\\RegisterUserCommandHandler.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAACYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-06T14:55:53.701Z",
+              "EditorCaption": ""
             }
           ]
         }

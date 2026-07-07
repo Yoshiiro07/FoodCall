@@ -142,3 +142,5 @@ D:\Projetos\NET\FoodCall\src\WebApi\obj\Debug\net8.0\rjsmcshtml.dswa.cache.json
 D:\Projetos\NET\FoodCall\src\WebApi\obj\Debug\net8.0\staticwebassets.build.json.cache
 D:\Projetos\NET\FoodCall\src\WebApi\obj\Debug\net8.0\staticwebassets.build.endpoints.json
 D:\Projetos\NET\FoodCall\src\WebApi\obj\Debug\net8.0\swae.build.ex.cache
+D:\Projetos\NET\FoodCall\src\WebApi\bin\Debug\net8.0\BCrypt-Net-Next.dll
+D:\Projetos\NET\FoodCall\src\WebApi\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt

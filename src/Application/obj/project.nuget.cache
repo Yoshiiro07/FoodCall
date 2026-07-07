@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "HaVXQbaPfg8=",
+  "dgSpecHash": "fSLuW0vPxDs=",
   "success": true,
   "projectFilePath": "D:\\Projetos\\NET\\FoodCall\\src\\Application\\Application.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\Gui\\.nuget\\packages\\bcrypt.net-next\\4.2.0\\bcrypt.net-next.4.2.0.nupkg.sha512",
     "C:\\Users\\Gui\\.nuget\\packages\\masstransit\\8.2.3\\masstransit.8.2.3.nupkg.sha512",
     "C:\\Users\\Gui\\.nuget\\packages\\masstransit.abstractions\\8.2.3\\masstransit.abstractions.8.2.3.nupkg.sha512",
     "C:\\Users\\Gui\\.nuget\\packages\\mediatr\\12.2.0\\mediatr.12.2.0.nupkg.sha512",
