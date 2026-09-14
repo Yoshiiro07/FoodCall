@@ -13,3 +13,4 @@
 /home/gui/projetos/FoodCall/backend/src/FoodCall.Application/obj/Debug/net8.0/refint/FoodCall.Application.dll
 /home/gui/projetos/FoodCall/backend/src/FoodCall.Application/obj/Debug/net8.0/FoodCall.Application.pdb
 /home/gui/projetos/FoodCall/backend/src/FoodCall.Application/obj/Debug/net8.0/ref/FoodCall.Application.dll
+/home/gui/projetos/FoodCall/backend/src/FoodCall.Application/obj/Debug/net8.0/FoodCall.Application.sourcelink.json

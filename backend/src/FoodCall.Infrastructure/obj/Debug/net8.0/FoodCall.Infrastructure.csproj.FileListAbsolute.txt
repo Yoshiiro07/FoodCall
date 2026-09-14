@@ -15,3 +15,6 @@
 /home/gui/projetos/FoodCall/backend/src/FoodCall.Infrastructure/obj/Debug/net8.0/refint/FoodCall.Infrastructure.dll
 /home/gui/projetos/FoodCall/backend/src/FoodCall.Infrastructure/obj/Debug/net8.0/FoodCall.Infrastructure.pdb
 /home/gui/projetos/FoodCall/backend/src/FoodCall.Infrastructure/obj/Debug/net8.0/ref/FoodCall.Infrastructure.dll
+/home/gui/projetos/FoodCall/backend/src/FoodCall.Infrastructure/obj/Debug/net8.0/FoodCall.Infrastructure.sourcelink.json
+/home/gui/projetos/FoodCall/backend/src/FoodCall.Infrastructure/bin/Debug/net8.0/FoodCall.Infrastructure.runtimeconfig.json
+/home/gui/projetos/FoodCall/backend/src/FoodCall.Infrastructure/obj/Debug/net8.0/FoodCall.Infrastructure.genruntimeconfig.cache
