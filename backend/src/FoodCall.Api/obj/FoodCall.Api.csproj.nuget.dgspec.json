@@ -1,0 +1,271 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/gui/projetos/FoodCall/backend/src/FoodCall.Api/FoodCall.Api.csproj": {}
+  },
+  "projects": {
+    "/home/gui/projetos/FoodCall/backend/src/FoodCall.Api/FoodCall.Api.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/gui/projetos/FoodCall/backend/src/FoodCall.Api/FoodCall.Api.csproj",
+        "projectName": "FoodCall.Api",
+        "projectPath": "/home/gui/projetos/FoodCall/backend/src/FoodCall.Api/FoodCall.Api.csproj",
+        "packagesPath": "/home/gui/.nuget/packages/",
+        "outputPath": "/home/gui/projetos/FoodCall/backend/src/FoodCall.Api/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/gui/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "/home/gui/projetos/FoodCall/backend/src/FoodCall.Application/FoodCall.Application.csproj": {
+                "projectPath": "/home/gui/projetos/FoodCall/backend/src/FoodCall.Application/FoodCall.Application.csproj"
+              },
+              "/home/gui/projetos/FoodCall/backend/src/FoodCall.Infrastructure/FoodCall.Infrastructure.csproj": {
+                "projectPath": "/home/gui/projetos/FoodCall/backend/src/FoodCall.Infrastructure/FoodCall.Infrastructure.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.OpenApi": {
+              "target": "Package",
+              "version": "[8.0.31, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.6.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/home/gui/.dotnet/sdk/8.0.425/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/gui/projetos/FoodCall/backend/src/FoodCall.Application/FoodCall.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/gui/projetos/FoodCall/backend/src/FoodCall.Application/FoodCall.Application.csproj",
+        "projectName": "FoodCall.Application",
+        "projectPath": "/home/gui/projetos/FoodCall/backend/src/FoodCall.Application/FoodCall.Application.csproj",
+        "packagesPath": "/home/gui/.nuget/packages/",
+        "outputPath": "/home/gui/projetos/FoodCall/backend/src/FoodCall.Application/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/gui/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "/home/gui/projetos/FoodCall/backend/src/FoodCall.Domain/FoodCall.Domain.csproj": {
+                "projectPath": "/home/gui/projetos/FoodCall/backend/src/FoodCall.Domain/FoodCall.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/home/gui/.dotnet/sdk/8.0.425/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/gui/projetos/FoodCall/backend/src/FoodCall.Domain/FoodCall.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/gui/projetos/FoodCall/backend/src/FoodCall.Domain/FoodCall.Domain.csproj",
+        "projectName": "FoodCall.Domain",
+        "projectPath": "/home/gui/projetos/FoodCall/backend/src/FoodCall.Domain/FoodCall.Domain.csproj",
+        "packagesPath": "/home/gui/.nuget/packages/",
+        "outputPath": "/home/gui/projetos/FoodCall/backend/src/FoodCall.Domain/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/gui/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/home/gui/.dotnet/sdk/8.0.425/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/gui/projetos/FoodCall/backend/src/FoodCall.Infrastructure/FoodCall.Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/gui/projetos/FoodCall/backend/src/FoodCall.Infrastructure/FoodCall.Infrastructure.csproj",
+        "projectName": "FoodCall.Infrastructure",
+        "projectPath": "/home/gui/projetos/FoodCall/backend/src/FoodCall.Infrastructure/FoodCall.Infrastructure.csproj",
+        "packagesPath": "/home/gui/.nuget/packages/",
+        "outputPath": "/home/gui/projetos/FoodCall/backend/src/FoodCall.Infrastructure/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/gui/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "/home/gui/projetos/FoodCall/backend/src/FoodCall.Application/FoodCall.Application.csproj": {
+                "projectPath": "/home/gui/projetos/FoodCall/backend/src/FoodCall.Application/FoodCall.Application.csproj"
+              },
+              "/home/gui/projetos/FoodCall/backend/src/FoodCall.Domain/FoodCall.Domain.csproj": {
+                "projectPath": "/home/gui/projetos/FoodCall/backend/src/FoodCall.Domain/FoodCall.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/home/gui/.dotnet/sdk/8.0.425/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
