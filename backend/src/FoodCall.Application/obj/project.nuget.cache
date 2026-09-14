@@ -1,8 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "5Ncg3ufA64I=",
+  "dgSpecHash": "+V/5w/0wgw4=",
   "success": true,
   "projectFilePath": "/home/gui/projetos/FoodCall/backend/src/FoodCall.Application/FoodCall.Application.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "/home/gui/.nuget/packages/mediatr/12.5.0/mediatr.12.5.0.nupkg.sha512",
+    "/home/gui/.nuget/packages/mediatr.contracts/2.0.1/mediatr.contracts.2.0.1.nupkg.sha512",
+    "/home/gui/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/8.0.0/microsoft.extensions.dependencyinjection.abstractions.8.0.0.nupkg.sha512"
+  ],
   "logs": []
 }
