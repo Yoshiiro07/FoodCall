@@ -9,3 +9,4 @@
 /home/gui/projetos/FoodCall/backend/src/FoodCall.Domain/obj/Debug/net8.0/refint/FoodCall.Domain.dll
 /home/gui/projetos/FoodCall/backend/src/FoodCall.Domain/obj/Debug/net8.0/FoodCall.Domain.pdb
 /home/gui/projetos/FoodCall/backend/src/FoodCall.Domain/obj/Debug/net8.0/ref/FoodCall.Domain.dll
+/home/gui/projetos/FoodCall/backend/src/FoodCall.Domain/obj/Debug/net8.0/FoodCall.Domain.sourcelink.json
